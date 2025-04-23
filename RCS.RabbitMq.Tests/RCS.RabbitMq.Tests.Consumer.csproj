@@ -19,6 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\RCS.RabbitMq.Consumer\RCS.RabbitMq.Consumer\RCS.RabbitMq.Consumer.csproj" />
+    <ProjectReference Include="..\..\RCS.RabbitMq.Logging.Processor\RCS.RabbitMq.Logging.Processor\RCS.RabbitMq.Logging.Processor.csproj" />
+    <ProjectReference Include="..\..\RCS.RabbitMq.WhatsApp.ActionLog.Processor\RCS.RabbitMq.WhatsApp.ActionLog.Processor\RCS.RabbitMq.WhatsApp.ActionLog.Processor.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
